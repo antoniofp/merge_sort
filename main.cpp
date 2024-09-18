@@ -6,7 +6,7 @@ void merge(vector<int>& left, vector<int>& right, vector<int>& array){
     int leftSize = left.size();
     int rightSize = right.size();
 
-    //indices for left, right and array
+    //indices for left, right and main array
     int i = 0, l = 0, r = 0;
 
     while (l < leftSize && r < rightSize){
